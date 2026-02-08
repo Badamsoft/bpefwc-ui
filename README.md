@@ -1,11 +1,13 @@
+# BadamSoft Product Exporter — Admin UI
 
-  # WooCommerce Product Exporter UI
+Source code for the admin interface of [BadamSoft Product Exporter for WooCommerce](https://badamsoft.com/wooproduct-exporter/).
 
-  This is a code bundle for WooCommerce Product Exporter UI. The original project is available at https://www.figma.com/design/HeJKX0mhLGuURwI9qU5Qxz/WooCommerce-Product-Exporter-UI.
+## Running the code
 
-  ## Running the code
+Run `npm ci` to install the dependencies.
 
-  Run `npm i` to install the dependencies.
+Run `npm run dev` to start the development server.
 
-  Run `npm run dev` to start the development server.
-  
+## Building for production
+
+Run `npm run build` to create a production build in `../assets/build/`.

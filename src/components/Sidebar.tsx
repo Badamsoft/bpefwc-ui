@@ -1,7 +1,7 @@
 import React from 'react';
 import type { ReactElement } from 'react';
 import { Download, FileText, History, Settings, HelpCircle, CalendarDays, Image as ImageIcon, Crown, Zap } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './ui/ImageWithFallback';
 import { pluginBranding } from '../config/branding';
 import type { ScreenId } from '../App';
 import { useAppState } from '@/context/AppStateContext';
